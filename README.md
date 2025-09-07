@@ -11,6 +11,26 @@
   - Overspenders table and insights
 - **Interactive Filters**: Age Range, City tier, Occupation, 
 
+### 🔄 Data Transformation
+
+The original dataset had expenses spread across multiple columns.
+I used unpivoting to restructure the data:
+- Converted individual expense columns into a single “Expense Amount” column.
+- Created a corresponding “Expense Category” column to classify each transaction.
+- This transformation allowed category-wise aggregation and simplified visualization.
+
+### 📊 Key Performance Indicators (KPIs)
+
+I built the following KPIs to summarize financial performance:
+
+- Total Expense → Sum of all expense categories.
+- Total Income → Aggregated income for the selected period.
+- Actual Savings → Income – Expense.
+- Desired Savings → User-defined savings goal.
+- Savings Rate → (Actual Savings ÷ Income) × 100.
+- Savings Variance → Actual Savings – Desired Savings.
+- Savings Variance % → (Savings Variance ÷ Desired Savings) × 100.
+
 ---
 
 ## 🛠️ Tech Stack
@@ -20,10 +40,25 @@
 
 ---
 
-## 📈 Insights
-- Shows how **age and income affect savings behavior**  
-- Highlights which groups **overspend vs achieve savings goals**  
-- Provides a breakdown of **needs vs wants expenses**  
+## 🔍 Insights from the Dashboard
+
+The dashboard not only visualizes income and expenses but also provides actionable insights based on the KPIs:
+
+Expense Breakdown
+- Clear identification of high-spend categories after unpivoting (Rent topped the list).
+- Helped highlight which categories consistently contribute most to overall expenses.
+
+Savings Performance
+- Actual Savings consistently met or exceeded Desired Savings, indicating good control over expenses.
+- The Savings Variance was positive, and the Savings Variance % highlighted how much savings went beyond the target (useful for tracking progress against goals).
+
+Savings Rate
+- Calculating savings as a % of income revealed a healthy savings rate, showing disciplined financial habits.
+- Showed whether saving patterns were consistent or irregular across months.
+
+Goal-Oriented Tracking
+- Comparing Desired Savings with Actual Savings provided reassurance that financial goals were on track.
+- Users can adjust future expenses or income targets based on variance trends.
 
 ---
 
