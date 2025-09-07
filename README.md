@@ -74,6 +74,16 @@ Goal-Oriented Tracking
 ---
 
 ## 📌 How to Use
-1. Clone the repo  
+- Clone the repo  
    ```bash
    git clone https://github.com/your-username/Finance360-Personal-Spending-Insights.git
+
+- Open the .pbix file in Power BI Desktop
+- Explore the interactive reports
+
+## About Me  
+👋 Hi, I'm Liza Deka — a data enthusiast.  
+   I enjoy building projects, analyzing real-world data, and sharing insights through GitHub and LinkedIn. 
+   
+  📬 Let’s Connect: <a href="https://www.linkedin.com/in/liza-deka-869473369/">LinkedIn</a>
+
