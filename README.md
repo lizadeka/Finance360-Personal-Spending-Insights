@@ -54,7 +54,6 @@ Savings Performance
 
 Savings Rate
 - Calculating savings as a % of income revealed a healthy savings rate, showing disciplined financial habits.
-- Showed whether saving patterns were consistent or irregular across months.
 
 Goal-Oriented Tracking
 - Comparing Desired Savings with Actual Savings provided reassurance that financial goals were on track.
